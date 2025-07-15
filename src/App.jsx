@@ -4,14 +4,16 @@ import viteLogo from '/vite.svg'
 import Greeting from './Greeting'
 import './App.css'
 import Footer from './Footer'
+import Hooks from './hooks/hooks'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
       <Greeting name="Raja"  message="Let's learn React together!"/>
       <Footer/>
+      <Hooks/>
     </>
   )
 }
